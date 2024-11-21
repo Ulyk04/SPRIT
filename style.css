@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+}
+  
+.section_one{
+    background-image: url(./images/width_1600);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 430px 0;
+    gap: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: -300px;
+}
+.title{
+    color: yellow;
+}
+.title_black{
+    color: white;
+}
+.section_one h1{
+    font-size: 68px;
+    display: flex;
+    justify-content: center;
+}
+.section_one h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.logo_img img {
+   width: 70px;
+   height: 70px;
+}
+.logo_img{
+    padding: 80px 80px ;
+}
+.logo_img h1{
+  color: white;
+}
+.logo_img_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.title_second h1{
+    font-size: 70px;
+    color: yellow;
+}
+.title_second h4{
+    font-size: 40px;
+    color: white;
+}
+.title_second a{
+    text-decoration: none;
+}
+.section_second{
+    padding: 100px 20px;
+    margin: 100px 100px;
+}
+.title_second_wrapper img:nth-child(1) {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: left;
+}
+.title_second_wrapper img:nth-child(2){
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.title_second_wrapper{
+    display: flex;
+    justify-content: end;
+    margin-top: -600px;
+    margin-right: 80px;
+}
+.title_second_wrapper img{
+    border-radius: 15px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    background-color: yellow;
+    font-size: 18px;
+    border: 0 solid;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+}
