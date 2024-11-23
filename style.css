@@ -104,3 +104,161 @@ button{
     color:black;
     cursor: pointer;
 }
+.section_third h1{
+    color: yellow;
+    font-size: 70px;
+}
+.section_third h4{
+    color: white;
+    font-size: 30px;
+}
+.section_third h5{
+    color: yellow;
+    font-size: 30px;
+    font-weight: 100;
+    border: 1px solid white;
+}
+.section_third{
+    padding-bottom: 200px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.title_small{
+    display: flex;
+    justify-content: center;
+}
+.card , .card_second , .card_third{
+    width: 400px;
+    height: 600px;
+}
+.card img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: right;
+    display: block;
+    border-radius: 15px;
+}
+.card  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-right: 200px;
+    padding: 20px 20px;
+}
+.card  h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.card_second img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 15px;
+}
+.card_second h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.card_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-right: 200px;
+    padding: 20px 20px;
+}
+.card_third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding: 20px 20px;
+}
+.card_third img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 15px;
+}
+.card_third h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.wrapper_card{
+    display: flex;
+    justify-content: center;
+}
+.list_card{
+    width: 400px;
+    height: 500px;
+    background-color: yellow;
+    margin: 80px 50px;
+}
+.list_card img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: top;
+}
+.list_card p{
+    padding: 0 10px;
+}
+.list_card h5{
+    padding: 0 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.title_fourth h1{
+    color: yellow;
+    font-size: 70px;
+}
+.title_fourth{
+    display: flex;
+    justify-content: center;
+}
+.section_fifth{
+    background-image: url('./images/fromgym.jpg');
+    padding: 250px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_fifth h1{
+    color: yellow;
+    font-size: 80px;
+    margin-left: 50px;
+}
+footer{
+    background-color: yellow;
+    padding: 50px 0;
+}
+.container_foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
