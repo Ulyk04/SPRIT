@@ -262,3 +262,500 @@ footer{
     justify-content: space-between;
     padding: 30px 70px;
 }
+@media(min-width: 992px) and (max-width: 1199px){
+    .section_one{
+        display: flex;
+        flex-direction: column;
+        padding: 200px 0 ;
+        margin-top: -400px;
+    }
+    .section_one{
+        text-align: center;
+        padding-top: 300px;
+    }
+    .section_one h1{
+        font-size: 40px;
+    }
+    .logo_img img{
+        width: 40px;
+        height: 40px;
+    }
+    .logo_img{
+        padding-bottom: 200px;
+    }
+    .logo_img h1{
+        font-size: 20px;
+    }
+    .title_second h1{
+        font-size: 30px;
+        margin-left: 400px;
+        margin-bottom: 300px;
+    }
+    .title_second h4{
+        font-size: 20px;
+        margin-left: 250px;
+    }
+    .section_second img{
+        width: 150px !important ;
+        height: 200px !important ;
+    }
+    .title_second_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .title_second{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section_second{
+        padding: 250px 0;
+    }
+    .title_second a{
+        margin-left: 240px;
+    }
+
+    .section_third h1{
+        font-size: 30px;
+    }
+    .title_small h4{
+        font-size: 20px;
+    }
+    .wrapper_card img{
+        width: 200px;
+        height: 200px;
+    }
+    .wrapper_card h5{
+        font-size: 20px;
+    }
+    .wrapper_card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 400px;
+        margin-top: -100px;
+    }
+    .title_small{
+        width: 200px;
+        margin-left: 490px;
+        text-align: center;
+    }
+    .card_second{
+        margin: -350px 0;
+    }
+    .title_fourth h1{
+        font-size: 45px;
+    }
+    .list_card{
+        width: 180px;
+        height: 380px;
+    }
+    .list_card p{
+        font-size: 10px;
+    }
+    .list_card_ozel{
+        margin: 0 -100px;
+    }
+    #list_card_left{
+        margin-left: 240px;
+    }
+    #list_card_right{
+        margin-right: 240px;
+    }
+    .section_fifth h1{
+        font-size: 40px;
+        margin-left: 350px;
+    }
+    .section_fifth{
+        padding: 200px 0 ;
+    }
+    .contact h1{
+        font-size: 20px;
+    }
+    .container_foot{
+        margin: 0 200px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .section_one h1{
+        font-size: 40px;
+    }
+    .section_one{
+        display: flex;
+        flex-direction: column;
+    }
+    .title_second h1{
+        font-size: 30px;
+        margin-left: 230px;
+        margin-bottom: 300px;
+    }
+    .title_second h4{
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    .title_second_wrapper img{
+        width: 180px !important;
+        height: 280px !important;
+    }
+    .title_second a{
+        margin-left: 50px;
+    }
+    .title_second_wrapper{
+        margin-right: 50px;
+    }
+
+    /*The 3 section */ 
+
+    .section_third h1{
+        font-size: 40px;
+    }
+    .title_small h4{
+        font-size: 26px;
+    }
+    .wrapper_card img{
+        width: 200px;
+        height: 200px;
+    }
+    .wrapper_card h5{
+        font-size: 10px;
+    }
+    .wrapper_card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 220px;
+        margin-top: -100px;
+    }
+    .title_small{
+        width: 200px;
+        margin-left: 320px;
+        text-align: center;
+        
+    }
+    .card_second{
+        margin: -350px 0;
+    }
+    
+    /*The 4 section*/
+
+    .title_fourth h1{
+        font-size: 60px;
+    }
+    .list_card{
+        width: 200px;
+        height: 380px;
+    }
+    .list_card p{
+        font-size: 10px;
+    }
+    .list_card_ozel{
+        margin: 0 -100px;
+    }
+    #list_card_left{
+        margin-left: 50px;
+    }
+    #list_card_right{
+        margin-right: 50px;
+    }
+
+    /*The 5 section */
+
+    .section_fifth h1{
+        font-size: 40px;
+        margin-left: 350px;
+    }
+    .section_fifth{
+        padding: 200px 0 ;
+    }
+
+    /* Footer */
+    .contact h1{
+        font-size: 20px;
+    }
+    .container_foot{
+        margin: 0 80px;
+    }
+}
+@media(min-width:480px) and (max-width:767px ){
+    .logo_img_wrapper img{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .logo_img_wrapper h1{
+        font-size: 22px;
+    }
+
+    .section_one h1:nth-child(1){
+        font-size: 30px;
+    }
+    .section_one h1:nth-child(2){
+        font-size: 20px
+    }
+    .section_one{
+        display: flex;
+        flex-direction: column;
+        padding: 250px 0;
+    }
+    .title_second h1{
+        font-size: 15px;
+        margin-left: 80px;
+        margin-bottom: 350px;
+    }
+    .title_second h4{
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .title_second_wrapper img{
+        width: 100px !important;
+        height: 200px !important;
+    }
+    .title_second a{
+        margin-left: 50px;
+    }
+    .title_second button{
+        width: 50px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .title_second_wrapper img:nth-child(1){
+        margin-right: -150px;
+        margin-top: 200px;
+    }
+    .title_second_wrapper img:nth-child(2){
+        padding: 0 0;
+        margin-top: 250px;
+        margin-right: -25px;
+    }
+
+    /*The 3 section */ 
+
+    .section_third h1{
+        font-size: 30px;
+    }
+    .title_small h4{
+        font-size: 18px;
+    }
+    .wrapper_card img{
+        width: 150px;
+        height: 150px;
+    }
+    .wrapper_card h5{
+        font-size: 7px;
+    }
+    .wrapper_card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-top: -100px;
+    }
+    .title_small{
+        width: 200px;
+        margin-left: 170px;
+        text-align: center;
+        
+    }
+    .card_second{
+        margin: -350px 0;
+    }
+    
+    /*The 4 section*/
+
+    .title_fourth h1{
+        font-size: 30px;
+    }
+    .list_card{
+        width: 150px;
+        height: 380px;
+    }
+    .list_card{
+        border: 1px solid yellow;
+    }
+    .list_card p{
+        font-size: 8px;
+    }
+    .list_card_ozel{
+        margin: 0 -100px;
+    }
+    #list_card_left{
+        margin-left: 50px;
+    }
+    #list_card_right{
+        margin-right: 50px;
+    }
+
+    /*The 5 section */
+
+    .section_fifth h1{
+        font-size: 40px;
+        margin-left: 180px;
+    }
+    .section_fifth{
+        padding: 200px 0 ;
+    }
+
+    /* Footer */
+    .contact h1{
+        font-size: 10px;
+    }
+    .contact p{
+        font-size: 8px;
+    }
+    .container_foot{
+        margin-left: 90px;
+    }
+    .container_foot{
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer{
+        padding: 10px 0;
+    }
+}
+@media(max-width: 480px){
+    .logo_img_wrapper img{
+        width: 30px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    .logo_img_wrapper h1{
+        font-size: 22px;
+    }
+
+    .section_one h1:nth-child(1){
+        font-size: 40px;
+    }
+    .section_one h1:nth-child(2){
+        font-size: 40px
+    }
+    .section_one{
+        display: flex;
+        flex-direction: column;
+        padding: 250px -100px;
+    }
+    .title_second{
+        width: 1200px;
+    }
+    .title_second h1{
+        font-size: 30px;
+        margin-left: -1000px;
+        margin-bottom: 350px;
+        text-align: center;
+    }
+    .title_second h4{
+        font-size: 20px;
+        margin-left: -50px;
+        padding-top: 25px;
+    }
+    .title_second_wrapper img{
+        width: 150px !important;
+        height: 200px !important;
+    }
+    .title_second a{
+        margin-left: 50px;
+    }
+    .title_second button{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .title_second_wrapper img:nth-child(1){
+        margin-right: -150px;
+        margin-top: 100px;
+    }
+    .title_second_wrapper img:nth-child(2){
+        padding: 0 0;
+        margin-top: 200px;
+        margin-right: -150px;
+    }
+    .section_second{
+        padding: 250px 0;
+    }
+   
+
+    /*The 3 section */ 
+
+    .section_third h1{
+        font-size: 40px;
+    }
+    .title_small h4{
+        font-size: 18px;
+    }
+    .wrapper_card img{
+        width: 200px;
+        height: 200px;
+    }
+    .wrapper_card h5{
+        font-size: 15px;
+    }
+    .wrapper_card{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+    .title_small{
+        width: 200px;
+        margin-left: 120px;
+        text-align: center;
+        
+    }
+    .card_second{
+        margin: -350px 0;
+    }
+    
+    /*The 4 section*/
+
+    .title_fourth h1{
+        font-size: 40px;
+    }
+    .list_card{
+        width: 500px;
+        height: 600px;
+    }
+    .list_card{
+        border: 1px solid yellow;
+    }
+    .list_card p{
+        font-size: 12px;
+    }
+    .list_card_ozel{
+        margin: 0 -100px;
+    }
+    #list_card_left{
+        margin-left: -50px;
+    }
+    #list_card_right{
+        margin-right: -50px;
+    }
+
+    /*The 5 section */
+
+    .section_fifth h1{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .section_fifth{
+        padding: 200px 0 ;
+    }
+
+    /* Footer */
+    .contact h1{
+        font-size: 15px;
+    }
+    .contact p{
+        font-size: 13px;
+    }
+    .container_foot{
+        margin-left: 90px;
+    }
+    .container_foot{
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer{
+        padding: 10px 0;
+    }
+}
